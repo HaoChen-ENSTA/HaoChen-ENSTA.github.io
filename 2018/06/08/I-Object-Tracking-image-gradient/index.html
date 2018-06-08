@@ -101,15 +101,14 @@
 <meta property="og:site_name" content="Hao CHEN">
 <meta property="og:description" content="The methods to obtain the 1st and 2nd order derivatives of an image">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https://haochen-ensta.github.io/2018/06/08/I-Object-Tracking-image-gradient/vision.png">
 <meta property="og:image" content="https://haochen-ensta.github.io/2018/06/08/I-Object-Tracking-image-gradient/ori.png">
 <meta property="og:image" content="https://haochen-ensta.github.io/2018/06/08/I-Object-Tracking-image-gradient/1st.png">
 <meta property="og:image" content="https://haochen-ensta.github.io/2018/06/08/I-Object-Tracking-image-gradient/2nd.png">
-<meta property="og:updated_time" content="2018-06-08T12:57:37.513Z">
+<meta property="og:updated_time" content="2018-06-08T13:01:03.523Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="I. Object Tracking -- image gradient">
 <meta name="twitter:description" content="The methods to obtain the 1st and 2nd order derivatives of an image">
-<meta name="twitter:image" content="https://haochen-ensta.github.io/2018/06/08/I-Object-Tracking-image-gradient/vision.png">
+<meta name="twitter:image" content="https://haochen-ensta.github.io/2018/06/08/I-Object-Tracking-image-gradient/ori.png">
 
 
 
@@ -371,7 +370,7 @@
       
 
       
-        <img src="/2018/06/08/I-Object-Tracking-image-gradient/vision.png"> 
+         
 <blockquote>
 <p>The methods to obtain the 1st and 2nd order derivatives of an image</p>
 </blockquote>
@@ -381,7 +380,8 @@
 <p>$$<br>\nabla f =\left[ \begin{array}{ccc} \frac{\partial f}{\partial x} \\ \frac{\partial f}{\partial y} \end{array} \right ]<br>$$<br>We should utilize some kernels ( prewitt, sobel, gaussian…)to calculate the derivative of an image.</p>
 <h3 id="Gaussian"><a href="#Gaussian" class="headerlink" title="Gaussian"></a>Gaussian</h3><p>We majorly utilize the gaussian method to calculate the derivative of an image.  The main idea of this method can be described as the formula shown below.  Where $\star$ means the convolution and $G_\sigma$ means the 2-dimensions Gaussian function of standard deviation $\sigma$<br>$$<br>I^\sigma_{x^iy^j} = I \star \frac{\partial^{i+j}G_\sigma}{\partial x^i \partial y^j}<br>$$</p>
 <p>The derivatives of 2-dimension Gaussian function is shown below:<br>$$<br>G(x,y,\sigma) = \frac{1}{2\pi\sigma^2}e^{-\frac{x^2+y^2}{2\sigma^2}}\\<br>G_x(x,y,\sigma)=-\frac{x}{\sigma^2}G(x,y,\sigma)\\<br>G_{xx}(x,y,\sigma)=\frac{x-\sigma^2}{\sigma^4}G(x,y,\sigma)\\<br>G_{xy}(x,y,\sigma)=\frac{xy}{\sigma^4}G(x,y,\sigma)<br>$$</p>
-<h3 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h3><p><img src="./ori.png" alt="original"><img src="./1st.png" alt="first order"></p>
+<h3 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h3><p><img src="./ori.png" alt="original"></p>
+<p><img src="./1st.png" alt="first order"></p>
 <p><img src="./2nd.png" alt="second order"><br>$$<br>H_f = \begin{bmatrix} \frac{\partial ^2f}{\partial x^2} &amp; \frac{\partial ^2f}{\partial x \partial y}\\\frac{\partial^2 f}{\partial x \partial y} &amp;\frac{\partial ^2f}{\partial y^2}\end{bmatrix}<br>$$</p>
 
       
