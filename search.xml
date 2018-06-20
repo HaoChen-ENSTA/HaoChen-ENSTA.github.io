@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[I -Fundamental Statitic]]></title>
+    <url>%2F2018%2F06%2F21%2FI-Fundamental-Statitic%2F</url>
+    <content type="text"><![CDATA[The note of statistic analysis Variance$$\sigma^2 =\frac{1}{N}\sum_{i=1}^N(X_i-\mu)^2=\frac{1}{N}\sum_{i=1}^NX_i^2 - \mu^2$$ can be also regarded as the risk in finance. Boxplot]]></content>
+      <categories>
+        <category>Data Analysis</category>
+      </categories>
+      <tags>
+        <tag>Statistic</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hey, it's me!]]></title>
     <url>%2F2018%2F06%2F08%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to my page, i’m Hao CHEN。]]></content>
