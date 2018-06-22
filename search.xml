@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[I -Fundamental Statistic]]></title>
     <url>%2F2018%2F06%2F21%2FI-Fundamental-Statitic%2F</url>
-    <content type="text"><![CDATA[The note of statistic analysis Variance$$\sigma^2 =\frac{1}{N}\sum_{i=1}^N(X_i-\mu)^2=\frac{1}{N}\sum_{i=1}^NX_i^2 - \mu^2$$ can be also regarded as the risk in finance. Boxplot]]></content>
+    <content type="text"><![CDATA[The note of statistic analysis Variance$$\sigma^2 =\frac{1}{N}\sum_{i=1}^N(X_i-\mu)^2=\frac{1}{N}\sum_{i=1}^NX_i^2 - \mu^2$$ can be also regarded as the risk in finance. Boxplot Bayes$$P(B_i|A)=\frac{P(A|B_i)P(B_i)}{\sum_{j=1}^nP(A|B_j)P(B_j)}$$ Poisson distribution$$P(X=k)=\frac{e^{-\lambda}\lambda^k}{k!}$$ note as :$ X \rightarrow \pi(\lambda)$ when p &lt;= 1, the binomial distribution can be regarded as poisson distribution, where $\lambda =np$ Normal distribution$$f(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$ if $X \rightarrow \cal{N}(\mu,\sigma^2)$,then $Z = \frac{X-\mu}{\sigma}\rightarrow \cal{N}(0,1)$]]></content>
       <categories>
         <category>Data Analysis</category>
       </categories>
