@@ -1823,7 +1823,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #eee0ff;
+  background: #e2df22;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3260,6 +3260,16 @@ span#yu-2 {
   border-top: 1px solid #222;
   border-bottom: 1px solid #222;
   font-size: 130%;
+}
+.top-scroll-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: none;
+  width: 0;
+  height: 2px;
+  background: #6d6d6d;
 }
 @-moz-keyframes animate-yu-1 {
   0% {
