@@ -10,5 +10,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://hao-ai.top/sitemap.xml
-Sitemap: http://hao-ai.top/baidusitemap.xml
+Sitemap: http://blog.hao-ai.top/sitemap.xml
+Sitemap: http://blog.hao-ai.top/baidusitemap.xml
